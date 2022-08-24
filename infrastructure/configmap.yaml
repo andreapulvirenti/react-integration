@@ -1,6 +1,9 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: configmap-moses
+  name: configmap-react-integration
 data:
-  username: Pulvirenti
+  appConfig.js: |
+    var appConfig = {
+      username: 'Pulvirenti'
+    };
